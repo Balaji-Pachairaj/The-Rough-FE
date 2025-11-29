@@ -4,5 +4,7 @@ export default [
   index("routes/home.tsx"),
   route("about", "routes/about.tsx"),
   route("speciesList", "routes/Species/list.tsx"),
+  route("addSpecies", "routes/Species/AddSpeciesForm.jsx"),
+  route("Species/edit/:id", "routes/Species/edit.jsx"),
   // route("post/:postid", "routes/post.tsx"),
 ] satisfies RouteConfig;
